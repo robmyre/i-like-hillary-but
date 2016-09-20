@@ -6,3 +6,5 @@ task :test do
     :external_only => true
   }).run
 end
+
+task :default => :test

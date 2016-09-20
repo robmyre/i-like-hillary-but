@@ -38,3 +38,12 @@ collections:
   issues:
     output: true
     permalink: /issues/:slug/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Rakefile
+  - build.sh
+  - local-serve.sh
